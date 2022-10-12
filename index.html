@@ -4,132 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
+    <title>Nested table</title>
 </head>
-<body>
-  
-    <TABLE width="50% border="1">
-        <tr>
-          <td><a href="">home</a></td>
-          <td><a href="">about</a></td>
-          <td><a href="">services</a></td>
-         
-     <td><a href="#contact">contact</a></td>
-
-
-        </tr>
-
+<body >
+    <table border="1" width="80%" align="center" height="100px" bgcolor="blue">
+     <tr>
+        <td>
+            <table border="3" width="50%" align="center" height="200px" bgcolor="pink">
+                <tr>
+                    <td>
+                      <h1><marquee>html</marquee></h1>
+                    </td>
+                </tr>
+            </table>
+        </td>
+     </tr>
     </table>
-    <hr>
-    <table width="100%" border="1" height="300px">
-        <tr bgcolor="darkred">
-            <td>
-
-            </td>
-
-        </tr>
-    </table>
-
-
-    <h1><mark><center>Registration form</mark></center></h1>
-    <table width="100%" border="1" height="200px" bgcolor="skyblue">
+    <table border="1" width="80%" align="center" height="100px">
         <tr>
-            <td><label for="">First name</label> 
-              <input type="text" placeholder="your name"/> 
-        </tr>
-        <tr>
-            <td> <label for="">last name</label>
-                <input type="text" placeholder="last name"/></br></td>
-        </tr>
-        <tr>
-            <td><label for="">Email id</label>
-                <input type="text" placeholder="Email@gmail.com"/></br></td>
-        </tr>
-        <tr>
-            <td><label for="">tel</label>
-                <input type="text" placeholder="tel"/></br></td>
-        </tr>
-        <tr>
-            <td> <label for="">Password</label>
-                <input type="text" placeholder="**********"/></br></td>
-        </tr>
-        <tr>
-            <td>COUNTRY:
-                <select>
-                    <option value="country">country</option>
-                    <option value="india">india</option>
-                    <option value="iraq">iraq</option>
+           <td>
+               <table border="3" width="50%" align="center" height="200px" bgcolor="pink">
+                   <tr>
+                       <td>
+                        <table border="3" width="50%" align="center" height="200px" bgcolor="green">
+                       </td>
+                       </tr>
+                       <tr>
+                        <td>
+                            <table border="3" width="50%" align="center" height="200px" bgcolor="yellow"></table>
+                        </td>
+                       </tr>
                     
-                </select>
-                STATE:
-                <select>
-                    <option value="state">state</option>
-                    <option value="japan">japan</option>
-                    <option value="uttarpradesh">uttarpradesh</option>
-                    <option value="uttarakhand">uttarakhand</option>
-        
-                </select>
-                CITY:
-                <select>
-                <option value="city">city</option>
-                <option value="noida">noida</option>
-                <option value="ghaziabad">ghaziabad</option>
-                <option value="rajnagar">rajnagar</option>
-                </br>
-                
-        
-                </select></td>
+                       
+                                </td>
+                            </tr>
+                        </td>
+                       </tr>
+                   </tr>
+               </table>
+           </td>
         </tr>
-        <tr>
-            <td>Gender:
-                <label for="">male</label>
-                <input type="radio" name="gender" placeholder="male">male</br></td>
-        </tr>
-        <tr>
-            <td> <label for="">female</label>
-                <input type="radio" name="gender" placeholder="female">female</br></td>
-        </tr>
-        <tr>
-            <td>  <label for="">others</label>
-                <input type="radio" name="gender" placeholder="others">others</br>
-        </td>
-        </tr>
-        <tr>
-            <td>  Skills:
-                <label for="">skills</label>
-                <input type="checkbox" name="c++" value="c++"checked>c++</br>
-                <input type="checkbox" name="c" value="c"checked>c++</br>
-                <input type="checkbox" name="python" value="python"checked>c++</br>
-                <input type="checkbox" name="java" value="java"checked>c++</br>
-        </td>
-        </tr>
-        <tr>
-            <td> File:<input type="file"/></br>
-                <button type="submit" name="submit">submit</button></td>
-        </tr>
-        
-<tr>
-    <td>
-        
-      
-        
-        
-       
-        
-        
-       
-       
-        
-        
-        
+       </table>
 
-
-
-    </td>
-</tr>
+    <table border="1" >
+        <caption><h1>Employee data</h1></caption>
+        <tr>
+            <th>name</th>
+            <th>city</th>
+            <th>department</th>
+        </tr>
+        <tr>
+            <td>divya</td>
+            <td>ghaziabad</td>
+            <td>bca</td>
+        </tr>
+        <tr>
+            <td>kiran</td>
+            <td>noida</td>
+            <td>btech</td>
+        </tr>
+        <tr>
+            <td>karan</td>
+            <td>haldwani</td>
+            <td>bsc</td>
+        </tr>
     </table>
-    <hr>
-    <hr>
-
+    <figure>
+     <img src="C:\Users\mini\Downloads\anthony-delanoix--s_fe5SCilU-unsplash (1).jpg" height="100px" width="100px" alt="error">
+     
+    </figure>
 </body>
 </html>
